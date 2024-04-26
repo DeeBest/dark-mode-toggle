@@ -42,7 +42,7 @@ footer {
 #dark-mode-label {
   width: 80px;
   height: 40px;
-  background-color: hsl(20, 6%, 40%);
+  background-color: hsl(20, 6%, 10%);
   border-radius: 20px;
   position: absolute;
   cursor: pointer;
