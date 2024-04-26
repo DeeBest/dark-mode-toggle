@@ -5,9 +5,6 @@ footerParagraph.textContent = `Created by \xA9Simphiwe ${currentDate}.`;
 const body = document.querySelector('body');
 const darkModeInput = document.getElementById('dark-mode-input');
 
-// darkModeInput.checked = false;
-// updateTheme();
-
 function updateTheme() {
   if (darkModeInput.checked) {
     body.style.backgroundColor = 'hsl(24, 10%, 10%)';
