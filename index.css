@@ -58,6 +58,9 @@ footer {
   animation: toggleOff 400ms linear forwards;
 }
 #dark-mode-input:checked + #dark-mode-label {
+  background-color: hsl(20, 6%, 90%);
+}
+#dark-mode-input:checked + #dark-mode-label #circle {
   background-color: hsl(20, 6%, 10%);
 }
 #dark-mode-input:checked + #dark-mode-label #circle {
